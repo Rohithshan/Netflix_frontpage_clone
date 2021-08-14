@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    color: white;
+    
+}
+
+.nav-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: red; 
+    padding: 0 15px ;
+    margin: 0;
+    /* position: fixed; */
+}
+.nav-right{
+    color:white;
+    width: 100vw;
+    display: inline-flex; 
+    padding-top: 10px;
+    padding-left: 100vh; 
+}
+
+.note{
+    padding-top: 5px;
+}
+
+.buttons {
+    padding: 10px;
+}
+
+#join-now {
+    background-color: #F40612;
+    width: 100px; 
+    color: white; 
+    border: transparent;
+}
+
+#sign-in {
+    background-color: black;
+    border: 1px solid white; 
+    color: white; 
+    width: 95px;   
+}
+
+.btn {
+    height: 33px; 
+    border-radius: 4%; 
+    text-align: center; 
+}
+
+.content {
+    padding: 10px; 
+}
+
+.content-text {
+    width: 50vw; 
+    justify-content: center;
+    align-items: center; 
+    margin: 10px; 
+    padding-left: 20px;
+}
+
+.title-tag{
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+.btn {
+    padding: 10px; 
+}
+
+.content-container {
+    padding: 20px;
+}
+
+.action{
+    font-size: 19px;
+}
+
+.pop{
+    padding-left: 10px;
+}
+
+.Popular {
+    display: flex;
+    margin-left: -30px;
+}
+
+.anime{
+   display: flex;
+}
+
+span{
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+}
+
+li{
+    list-style-type: none;
+    padding-right: 12px;
+}
+
+a{
+    text-decoration: none;
+}
